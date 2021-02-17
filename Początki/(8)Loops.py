@@ -22,7 +22,7 @@ friends = ['Anna', 'Kuba', 'Myszka']
 for friend in friends:
     print(f'{friend} is my friend')
 
-for friend in range(4):
+for friend in range(3):
     print(f'{friend} is my friend')
 
 

@@ -9,7 +9,7 @@ print(result)
 "*************************"
 name = "Jacek "
 print(name)
-print(name * 2 )
+print(name * 2)
 
 "*************************"
 a = 25

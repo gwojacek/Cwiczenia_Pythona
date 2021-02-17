@@ -5,7 +5,7 @@
 #     print(f'Wiadomo, że {user_char} tempy chuju')
 # else:
 #     print('Ale walaszka to szanuj')
-
+#
 
 "************************"
 
@@ -19,4 +19,6 @@ if user_input == "y":
     elif abs(magic_number - user_number) != magic_number:
         #abs czyli wartości absolutne pokazujące odległość od danej liczby
         print(f'You were off by {how_far_away}')
+    elif user_number == 0:
+        print("no its not 0")
 

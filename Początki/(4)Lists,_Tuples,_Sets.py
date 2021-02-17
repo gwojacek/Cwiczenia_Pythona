@@ -41,7 +41,7 @@ friends = {"Bob", "Rolf", "Annie"}
 abroad = {"Bob", "Annie"}
 
 local_friends = friends.difference(abroad)
-print(local_friends)
+print(f'local friends: {local_friends}')
 #wskaze roznice miedzyu friends a aborad
 
 local_friends = abroad.difference(friends)
